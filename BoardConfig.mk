@@ -27,7 +27,7 @@
 -include vendor/samsung/d2spi/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2spi
+#TARGET_OTA_ASSERT_DEVICE := d2spi
 
 # Kernel
 TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
