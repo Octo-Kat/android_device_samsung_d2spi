@@ -1,4 +1,4 @@
-# Copyright (C) 2009 The CyanogenMod Project
+# Copyright (C) 2014 Team-OctOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@
 #TARGET_OTA_ASSERT_DEVICE := d2spi
 
 # Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
+TARGET_KERNEL_CONFIG    := oct_d2spr_defconfig
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2spi/board-info.txt
 
