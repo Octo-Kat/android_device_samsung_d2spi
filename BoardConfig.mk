@@ -30,7 +30,7 @@
 #TARGET_OTA_ASSERT_DEVICE := d2spi
 
 # Kernel
-TARGET_KERNEL_CONFIG    := oct_d2spr_defconfig
+TARGET_KERNEL_CONFIG    := d2_spr_defconfig
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2spi/board-info.txt
 
