@@ -26,11 +26,7 @@
 # inherit from the proprietary version
 -include vendor/samsung/d2spi/BoardConfigVendor.mk
 
-# Assert
-#TARGET_OTA_ASSERT_DEVICE := d2spi
-
-# Kernel
-TARGET_KERNEL_CONFIG    := d2_spr_defconfig
+TARGET_OTA_ASSERT_DEVICE := d2spr,d2spi,d2tfnspr
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2spi/board-info.txt
 
